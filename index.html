@@ -2,13 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="Styles/style.css">
-    <title>Ping Pong Game</title>
+    <title>Pong Game JavaScript</title>
+    <style>
+        body{
+            background-color: dimgray;
+        }
+        #pong{
+            border: 2px solid #FFF;
+            position: absolute;
+            margin :auto;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+        }
+    </style>
 </head>
 <body>
-
-<script src="JavaScripts/sketch.js"></script>
-<script src="JavaScripts/ball.js"></script>
-<script src="JavaScripts/peddle.js"></script>
+<canvas id="pong" width="600" height="400"></canvas>
+<script src="JavaScripts/pong.js"></script>
 </body>
 </html>
