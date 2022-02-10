@@ -157,7 +157,7 @@ function update(){
         // -player.height/2 < collide Point < player.height/2
         collidePoint = collidePoint / (player.height/2);
 
-        // when the ball hits the top of a paddle we want the ball, to take a -45degees angle
+        // when the ball hits the top of a paddle we want the ball, to take a -45degrees angle
         // when the ball hits the center of the paddle we want the ball to take a 0degrees angle
         // when the ball hits the bottom of the paddle we want the ball to take a 45degrees
         // Math.PI/4 = 45degrees
